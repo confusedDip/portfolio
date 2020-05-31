@@ -15,26 +15,28 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!--Attach Font Awesome Icon Link-->
+    <script src="https://kit.fontawesome.com/752cb6d574.js" crossorigin="anonymous"></script>
 
     <!--Attach Google Fonts-->
     <link
-        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&family=Tenali+Ramakrishna&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Merriweather:wght@700&family=Shadows+Into+Light&display=swap"
         rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar navbar-light navbar-expand-md">
+        <a href="#" class="navbar-brand"><img src="images/signature.png" alt="Signature Logo" id="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="Navbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Vision</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#intro"><i class="fas fa-info"></i> Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-university"></i> Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-code"></i> Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-list"></i> Vision</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-address-card"></i> Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -52,6 +54,78 @@
         </div>
     </header>
 
+    <div class="container">
+        <div class="row" id="intro">
+            <div class="col-12 text-center order-first intro-head">
+                <h2>Hi, It's me</h2>
+                <hr>
+            </div>
+            <div class="col-8 col-lg-4 order-lg-3 align-self-center" id="intro-img">
+                <img src="images/intro.jpg" alt="Souradip's Picture" class="img-thumbnail rounded-circle">
+            </div>
+            <div class="col-12 col-lg-4 order-lg-2 align-self-center intro-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quos porro ducimus autem minima consectetur nobis sed. Exercitationem obcaecati debitis, et delectus eos id sit quae nobis consequuntur quo reprehenderit!</p>
+            </div>
+            <div class="col-6 col-lg-4 d-none d-lg-block align-self-center order-lg-last intro-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perspiciatis reiciendis aperiam accusamus quia labore ab vero earum, temporibus totam qui saepe impedit iure atque adipisci non distinctio odit vitae.</p>
+            </div>
+        </div>
+    </div>
+    <div id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center education-head">
+                    <h2>What I've learned so far</h2>
+                    <hr>
+                </div>
+                <div class="col-12 col-sm col-md">
+                    <div class="media" id="div-michigan">
+                        <img src="images/michigan.jpg" alt="Michigan University" class="d-flex mr-3 img-thumbnail align-self-center" id="img-michigan">
+                        <div class="media-body">
+                            <h2 class="mt-0">Michigan University</h2>
+                            <h4>Web Design for Everybody: Basics of Web Development & Coding Specialization</h4>
+                            <h5><i class="fas fa-map-marker-alt"></i> Online Course on Coursera, May 2020</h5>
+                            <p class="d-none d-lg-block">
+                            After a long break from Web Designing and Development, I made a comeback to this field with this course on Coursera 
+                            "Web Design for Everybody: Basics of Web Development & Coding Specialization" offered by Michigan University. From the very 
+                            basics of HTML, CSS to advanced responsive designing, and Javascript, I learned everything in depth from my instructor Collen van 
+                            Lent with hands-on. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media" id="div-iiest">
+                        <div class="media-body">
+                            <h2 class="mt-0">Indian Institue of Engineering Science and Technology, Shibpur</h2>
+                            <h4>B.Tech. in Information Technology (2018 - 2022)</h4>
+                            <h5><i class="fas fa-map-marker-alt"></i> Shibpur, West Bengal, India</h5>
+                            <p class="d-none d-lg-block">
+                                I have my major in Information Technology, where I get to learn some really interesting subjects like 
+                                Data Structures and Algorithms, Digital Logic and Circuit Design, Discrete Mathematics, Formal Language, Automata Theory,
+                                and many more. Here, I get hands-on experience through sessionals. 
+                            </p>
+                        </div>
+                        <img src="images/iiest.jpg" alt="IIEST" class="d-flex ml-3 img-thumbnail align-self-center" id="img-iiest">
+                    </div>
+                    <div class="media" id="div-model">
+                        <img src="images/school.jpeg" alt="Uttarpara Model" class="d-flex mr-3 img-thumbnail align-self-center"
+                            id="img-model">
+                        <div class="media-body">
+                            <h2 class="mt-0">Uttarpara Model School</h2>
+                            <h4>Class of 2018</h4>
+                            <h5><i class="fas fa-map-marker-alt"></i> Uttarpara, West Bengal, India</h5>
+                            <p class="d-none d-lg-block">
+                                I graduated high school, where I enjoyed doing science, math, biology, and arts. Due to my knack in
+                            Science, I took science as a major after my 10th.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+    </div>
+    
 
 
 

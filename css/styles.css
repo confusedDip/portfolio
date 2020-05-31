@@ -1,9 +1,12 @@
 body{
-    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-family: 'Alegreya',serif;
 }
 header{
     background-image: url("../images/header.jpg");
     background-size: cover;
+}
+#logo{
+    width: 70%;
 }
 .intro{
     margin: 20% auto 0;
@@ -17,7 +20,7 @@ header{
 }
 #heading2{
     font-size: 3rem;
-    font-family: 'Architects Daughter',cursive;
+    font-family: 'Shadows Into Light', cursive;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
     font-weight: bolder;
 }
@@ -25,10 +28,44 @@ header{
     background-color: rgba(255,255,255,1);
 }
 
+#intro{
+    margin: 10% 0 5%;
+}
+
+#intro-img{
+    margin: 2% auto;
+}
+
+.intro-text {
+    text-align: justify;
+    margin: 2% auto;
+}
+
+.intro-head{
+    font-family: 'Merriweather', serif;
+    color: #11999e;
+}
+
+#education{
+    background-color: #11999e;
+}
+
+.education-head{
+    font-family: 'Merriweather',serif;
+    color: antiquewhite;
+    padding-top: 5%;
+}
+#img-michigan, #img-iiest, #img-model{
+    width: 0;
+    border-width: 0;
+}
+.media{
+    margin: 2% 0;
+}
 @media all and (min-width: 768px){
     body {
-        font-family: 'Tenali Ramakrishna', sans-serif;
-        font-size: 2rem;
+        font-family: 'Alegreya', serif;
+        font-size: 1.5rem;
     }
     .intro {
         margin: 20% auto 5%;
@@ -43,8 +80,20 @@ header{
 
     #heading2 {
         font-size: 300%;
-        font-family: 'Architects Daughter', cursive;
+        font-family: 'Shadows Into Light', cursive;
         text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
         font-weight: bolder;
+    }
+    .intro-head {
+        font-family: 'Merriweather', erif;
+        color: #11999e;
+        font-size: 1.5rem;
+    }
+    #img-michigan, #img-iiest, #img-model {
+        width: 20%;
+    }
+
+    #div-iiest{
+        text-align: right;
     }
 }
