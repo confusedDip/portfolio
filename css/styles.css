@@ -28,10 +28,13 @@ header{
     background-color: rgba(255,255,255,1);
 }
 
-#intro{
+#intro, .skills-head{
     margin: 10% 0 5%;
 }
 
+.skills{
+    margin-bottom: 5%;
+}
 #intro-img{
     margin: 2% auto;
 }
@@ -41,7 +44,7 @@ header{
     margin: 2% auto;
 }
 
-.intro-head{
+.intro-head, .skills-head{
     font-family: 'Merriweather', serif;
     color: #11999e;
 }
@@ -50,11 +53,7 @@ header{
     background-color: #11999e;
 }
 
-.education-head{
-    font-family: 'Merriweather',serif;
-    color: antiquewhite;
-    padding-top: 5%;
-}
+
 #img-michigan, #img-iiest, #img-model{
     width: 0;
     border-width: 0;
@@ -62,6 +61,27 @@ header{
 .media{
     margin: 2% 0;
 }
+.card-body, #education p{
+    background-color: #11999e;
+    color: #f7fbfc;
+}
+
+#education h4{
+    color: #0c056d;
+}
+
+#education h5{
+    color: #283149;
+}
+.card-title, #education h2{
+    color: #071a52;
+}
+.education-head {
+    font-family: 'Merriweather', serif;
+    color: antiquewhite;
+    padding-top: 5%;
+}
+
 @media all and (min-width: 768px){
     body {
         font-family: 'Alegreya', serif;
@@ -84,7 +104,7 @@ header{
         text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
         font-weight: bolder;
     }
-    .intro-head {
+    .intro-head, .skills-head {
         font-family: 'Merriweather', erif;
         color: #11999e;
         font-size: 1.5rem;
