@@ -5,6 +5,15 @@ header{
     background-image: url("../images/header.jpg");
     background-size: cover;
 }
+h1,h2{
+    font-size: 130%;
+}
+h3{
+    font-size: 115%;
+}
+h4,h5{
+    font-size: 100%;
+}
 #logo{
     width: 70%;
 }
@@ -27,14 +36,18 @@ header{
 .navbar-light{
     background-color: rgba(255,255,255,1);
 }
-
-#intro, .skills-head{
-    margin: 10% 0 5%;
+#introduction, #skills, #education, #system{
+    margin: 10% 0;
 }
 
-.skills{
+.education-head, .system-head{
     margin-bottom: 5%;
 }
+
+#education, #system{
+    padding: 5% 0;
+}
+
 #intro-img{
     margin: 2% auto;
 }
@@ -47,9 +60,10 @@ header{
 .intro-head, .skills-head{
     font-family: 'Merriweather', serif;
     color: #11999e;
+    margin-bottom: 5%;
 }
 
-#education{
+#education, #system{
     background-color: #11999e;
 }
 
@@ -61,6 +75,8 @@ header{
 .media{
     margin: 2% 0;
 }
+
+
 .card-body, #education p{
     background-color: #11999e;
     color: #f7fbfc;
@@ -73,19 +89,25 @@ header{
 #education h5{
     color: #283149;
 }
-.card-title, #education h2{
+.card-title, #education h3{
     color: #071a52;
 }
-.education-head {
+.education-head, .system-head{
     font-family: 'Merriweather', serif;
     color: antiquewhite;
     padding-top: 5%;
 }
+.system-body{
+    color: #f7fbfc;
+    font-family: 'Bebas Neue',cursive;
+    line-height: 2;
+}
+    
 
 @media all and (min-width: 768px){
     body {
         font-family: 'Alegreya', serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .intro {
         margin: 20% auto 5%;
@@ -94,12 +116,12 @@ header{
 
     #heading1 {
         font-family: 'Shadows Into Light', cursive;
-        font-size: 200%;
+        font-size: 300%;
         text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
     }
 
     #heading2 {
-        font-size: 300%;
+        font-size: 400%;
         font-family: 'Shadows Into Light', cursive;
         text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
         font-weight: bolder;
@@ -107,7 +129,7 @@ header{
     .intro-head, .skills-head {
         font-family: 'Merriweather', erif;
         color: #11999e;
-        font-size: 1.5rem;
+        font-size: 150%;
     }
     #img-michigan, #img-iiest, #img-model {
         width: 20%;
@@ -115,5 +137,17 @@ header{
 
     #div-iiest{
         text-align: right;
+    }
+    .system-body {
+        color: #f7fbfc;
+        font-family: 'Bebas Neue', cursive;
+        line-height: 2;
+        font-size: 120%;
+    }
+    .education-head, .system-head{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 150%;
     }
 }
