@@ -22,12 +22,12 @@ h4,h5{
     background-color: rgba(1,1,1,0.05);
 }
 
-#heading1{
+#heading1 {
     font-family: 'Shadows Into Light',cursive;
     font-size: 2.5rem;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
-#heading2{
+#heading2 {
     font-size: 3rem;
     font-family: 'Shadows Into Light', cursive;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
@@ -36,7 +36,7 @@ h4,h5{
 .navbar-light{
     background-color: rgba(255,255,255,1);
 }
-#introduction, #skills, #education, #system{
+#introduction, #education, #system{
     margin: 10% 0;
 }
 
@@ -103,7 +103,29 @@ h4,h5{
     line-height: 2;
 }
     
-
+#footerHeading1{
+    font-family: 'Shadows Into Light',
+    cursive;
+    font-size: 2.5rem;
+}
+#footerHeading2{
+    font-size: 3rem;
+    font-family: 'Shadows Into Light',
+    cursive;
+    font-weight: bolder;
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.footer-body{
+    margin-bottom: 10%;
+}
+a:hover{
+    text-decoration: none;
+}
 @media all and (min-width: 768px){
     body {
         font-family: 'Alegreya', serif;
@@ -150,4 +172,19 @@ h4,h5{
     h3{
         font-size: 150%;
     }
+    #footerHeading1 {
+        font-family: 'Shadows Into Light',
+            cursive;
+        font-size: 200%;
+    }
+    #footerHeading2{
+        font-size: 300%;
+        font-family: 'Shadows Into Light',
+        cursive;
+        font-weight: bolder;
+    }
+    #insta{
+        width: 30%;
+    }
+    
 }
